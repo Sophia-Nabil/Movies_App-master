@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies App</title>
+    <!-- icons -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@300;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,300;1,500;1,700&family=Tajawal:wght@200;300;400;500;800;900&family=Varela+Round&display=swap"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Navbar  -->
+    <header>
+      <a href="#home" class="logo"> <i class="fa-solid fa-film"></i> Movies </a>
+      <div id="menu-icon"><i class="fa-solid fa-bars"></i></div>
+      <!-- menu -->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <div class="container">
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar">
+        <li class="nav-item ">
+          <a class="nav-link active "  href="#home">Home</a>
+          <a class="nav-link "href="#movies">Movies</a>
+          <a class="nav-link " href="#coming soon">Coming Soon</a>
+          <a class="nav-link " href="#newsletter">Newsletter</a>
+        </li>
+      </ul>
+    </div>
+      </nav>
+      <a href="#" class="btn">Sign In</a>
+    </header>
+    <!-- end navbar -->
+    <!-- Home -->
+    <section id="home" class="home">
+      <div class="home-text">
+        <span>Marvel Universe</span>
+        <h2>
+          Spider-Man<br />
+          Far From Home
+        </h2>
+        <a href="#" class="btn">Book Now</a>
+      </div>
+    </section>
+    <!-- Home -->
+    <!-- Movies -->
+   <section id="movies" class="movies">
+      <h2 class="heading">Opennig this week</h2>
+      <div class="movies-container">
+        </div>
+        <!-- Card --> 
+  <!-- Horizontal scroll container -->
+  <div class="movie-scroll-container ">
+    <!-- Movie 1 -->
+    <div class="movie-card text-center">
+      <img src="img/m1.jpg" alt="Johnny English">
+      <div class="movie-title">Joney English</div>
+      <div class="movie-info">80min | Comedy</div>
+    </div>
+
+    <!-- Movie 2 -->
+    <div class="movie-card text-center">
+      <img src="img/m2.jpg" alt="Warcraft">
+      <div class="movie-title">WarCraft</div>
+      <div class="movie-info">120min | Action</div>
+    </div>
+    <!-- Movie 3 -->
+    <div class="movie-card text-center">
+      <img src="img/m3.jpg" alt="Rampage">
+      <div class="movie-title">Rampage</div>
+      <div class="movie-info">108min | Adventure</div>
+    </div>
+    <!-- Movie 4 -->
+    <div class="movie-card text-center">
+      <img src="img/m4.jpg" alt="The Avengers">
+      <div class="movie-title">The Avengers</div>
+      <div class="movie-info">143min | Action</div>
+    </div>     
+    <!-- Movie 5 -->
+    <div class="movie-card text-center">
+      <img src="img/m5.jpg" alt="Spider">
+      <div class="movie-title">Spider </div>
+      <div class="movie-info">120min | Action</div>
+    </div>
+  </div>
+      <div class="movie-scroll-container px-3">
+    <!-- Movie 6 -->
+    <div class="movie-card text-center">
+      <img src="img/m6.jpg" alt="The Dark Knight">
+      <div class="movie-title">The Dark Knight</div>
+      <div class="movie-info">152min | Action</div>
+    </div>
+    <!-- Movie 7 -->
+    <div class="movie-card text-center">
+      <img src="img/m7.jpg" alt="Inception">
+      <div class="movie-title">Inception</div>
+      <div class="movie-info">148min | Sci-Fi</div>
+    </div>
+    <!-- Movie 8 -->
+    <div class="movie-card text-center">
+      <img src="img/m8.png" alt="Interstellar">
+      <div class="movie-title">Interstellar</div>
+      <div class="movie-info">169min | Sci-Fi</div>
+    </div>
+    <!-- Movie 9 -->
+    <div class="movie-card text-center">
+      <img src="img/m9.jpg" alt="The Matrix">
+      <div class="movie-title">The Matrix</div>
+      <div class="movie-info">136min | Sci-Fi</div>
+    </div>
+    <!-- Movie 10 -->
+    <div class="movie-card text-center">
+      <img src="img/m10.jpg" alt="Avatar">
+      <div class="movie-title">Avatar</div>
+      <div class="movie-info">162min | Sci-Fi</div>
+    </div>
+  </div>
+  </div>
+      </div>
+    </section>
+    <!-- Movies -->
+    <!-- Coming Soon -->
+    <section id="coming soon" class="coming">
+      <h1 class="heading">Coming Soon</h1>
+      <div class="movies-container">
+        </div>
+        <!-- Card -->
+         <div class="movie-scroll-container">
+    <!-- Coming Soon 1 -->
+    <div class="movie-card text-center">
+      <img src="img/coming1.jpg" alt="Black Panther">    
+      <div class="movie-title">Black Panther</div>
+      <div class="movie-info">120min | Action</div>
+
+    </div>
+    <!-- Coming Soon 2 -->
+    <div class="movie-card text-center">
+      <img src="img/coming2.jpg" alt="Doctor Strange">
+      <div class="movie-title">Doctor Strange</div>
+      <div class="movie-info">115min | Fantasy</div>
+    </div>
+    <!-- Coming Soon 3 -->
+    <div class="movie-card text-center">
+      <img src="img/coming3.jpg" alt="Thor: Love and Thunder">
+      <div class="movie-title">Thor: Love and Thunder</div>
+      <div class="movie-info">130min | Action</div>
+    </div>
+    <!-- Coming Soon 4 -->
+    <div class="movie-card text-center">
+      <img src="img/coming4.jpg" alt="Guardians of the Galaxy Vol. 3">
+      <div class="movie-title">Guardians of the Galaxy Vol. 3</div>
+      <div class="movie-info">150min | Action</div>
+    
+    </div>
+    <!-- Coming Soon 5 -->
+    <div class="movie-card text-center">
+      <img src="img/coming5.jpg" alt="Spider">
+      <div class="movie-title">Spider</div>
+      <div class="movie-info">120min | Action</div>
+    </div>
+         </div>
+    <!-- Coming Soon 6 -->
+     <div class="movie-scroll-container px-3">
+    <div class="movie-card text-center">
+      <img src="img/coming6.jpeg" alt="The Flash">
+      <div class="movie-title">The Flash</div>
+      <div class="movie-info">140min | Action</div>
+    </div>
+    <!-- Coming Soon 7 -->
+    <div class="movie-card text-center">
+      <img src="img/coming7.jpg" alt="Aquaman">
+      <div class="movie-title">Aquaman</div>
+      <div class="movie-info">130min | Action</div>
+    </div>
+    <!-- Coming Soon 8 -->
+    <div class="movie-card text-center">
+      <img src="img/coming8.jpg" alt="">
+        <div class="movie-title">Wonder </div>
+      <div class="movie-info">125min | Action</div>
+    </div>  
+    <!-- Coming Soon 9 -->
+    <div class="movie-card text-center">
+      <img src="img/coming9.jpg" alt="Shazam!">
+      <div class="movie-title">Shazam!</div>
+      <div class="movie-info">130min | Action</div>
+    </div>
+    <!-- Coming Soon 10 -->
+    <div class="movie-card text-center">
+      <img src="img/coming10.jpg" alt="Black Widow">
+      <div class="movie-title">Black Widow</div>
+      <div class="movie-info">140min | Action</div>   
+    </div>
+  </div>
+      </div>
+    </section>
+    <!-- Coming Soon -->
+    <!-- Newsletter --> 
+    <section id="newsletter" class="news">
+      <h2>
+        Subscribe To Get <br />
+        Newsletter
+      </h2>
+      <form>
+    <div class="mb-3">
+    <input type="email" class="form-control" id="exampleInputEmail1"  placeholder=" Enter Email.." aria-describedby="emailHelp">
+    <button type="submit" class="btn btn-danger">Subscribe</button>
+  </div>
+      </form>
+    </section>
+    <!-- Newsletter -->
+    <!-- footer -->
+    <section class="footer">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-film"></i> Movies
+      </a>
+        <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-5 mb-md-0">
+        <div class="social-icons">
+        <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+           </div>
+        </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <!-- copyrights -->
+    <div class="copy">
+      <p>&#169; <span>Web Masters</span> All Right Reserved.</p>
+    </div>
+    <!-- copyrights -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
